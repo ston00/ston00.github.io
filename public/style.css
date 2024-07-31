@@ -14,7 +14,7 @@ ul {
   
   /* Style for navigation bar */
   nav {
-    background-color: #0a0a0a;
+    background-color: #426B1F;;
     padding: 10px;
   }
   
@@ -45,3 +45,427 @@ ul {
   }
   h1 { text-align: center;}
   h2 { text-align: center;}
+
+
+/* Product page */
+#productPage{
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+  background: #FFFFFF;
+}
+
+
+
+/* Page heading */
+
+position: absolute;
+height: 149px;
+left: 11px;
+right: -11px;
+top: 112px;
+
+background: #FFFFFF;
+
+
+/* A-Z chip */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 62px;
+height: 40px;
+right: 205px;
+bottom: 33px;
+
+background: #FFFFFF;
+border: 1px solid #C2C2C2;
+border-radius: 20px;
+
+
+/* A-Z */
+
+position: absolute;
+width: 30px;
+height: 21px;
+left: calc(50% - 30px/2);
+top: calc(50% - 21px/2);
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 130%;
+/* identical to box height, or 21px */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+
+
+/* List chip */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 101px;
+height: 40px;
+right: 96px;
+bottom: 33px;
+
+background: #FFFFFF;
+border: 1px solid #C2C2C2;
+border-radius: 20px;
+
+
+/* List view */
+
+position: absolute;
+width: 69px;
+height: 21px;
+left: calc(50% - 69px/2);
+top: calc(50% - 21px/2);
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 130%;
+/* identical to box height, or 21px */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Fresh — August 21, 2023 */
+
+position: absolute;
+visibility: hidden;
+width: 248px;
+height: 26px;
+left: 347px;
+bottom: 33px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 130%;
+/* identical to box height, or 26px */
+display: flex;
+align-items: flex-end;
+
+color: #000000;
+
+
+
+/* Recipes */
+
+position: absolute;
+width: 208px;
+height: 77px;
+left: 96px;
+bottom: 16px;
+
+font-family: 'Newsreader';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 120%;
+/* identical to box height, or 77px */
+display: flex;
+align-items: flex-end;
+letter-spacing: -0.02em;
+
+color: #000000;
+
+
+
+/* Divider */
+
+position: absolute;
+height: 0px;
+left: 96px;
+right: 96px;
+bottom: 0px;
+
+border: 2px solid #E6E6E6;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* Search Bar Chip */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 526px;
+height: 30px;
+right: 482px;
+bottom: 234px;
+
+background: #FFFFFF;
+border: 1px solid #C2C2C2;
+border-radius: 20px;
+
+
+/* Search Recipe */
+
+position: absolute;
+width: 90px;
+height: 17px;
+left: calc(50% - 90px/2);
+top: calc(50% - 17px/2);
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 130%;
+/* identical to box height, or 17px */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #8D7777;
+
+
+
+/* Ellipse 279 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 10px;
+height: 10px;
+left: 8px;
+top: 5px;
+
+background: #D9D9D9;
+border: 2px solid #000000;
+
+
+/* Line 1 */
+
+position: absolute;
+width: 17.33px;
+height: 0.75px;
+left: 30.42px;
+top: 21.05px;
+
+background: #D9D9D9;
+border: 2px solid #000000;
+transform: rotate(-146.31deg);
+
+
+/* Search Chip */
+
+position: absolute;
+width: 88px;
+height: 40px;
+right: 702px;
+bottom: 184px;
+
+background: #426B1F;
+border-radius: 20px;
+
+
+/* Search */
+
+position: absolute;
+width: 55px;
+height: 21px;
+left: calc(50% - 55px/2 + 0.5px);
+top: calc(50% - 21px/2);
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 130%;
+/* identical to box height, or 21px */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Navigation */
+#homeNavigation{
+  position: absolute;
+  height: 112px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+}
+
+
+/* Banner */
+#navBanner{
+position: absolute;
+width: 1440px;
+height: 233px;
+left: 0px;
+top: 10px;
+
+background: #426B1F;
+}
+
+/* Home */
+
+position: absolute;
+width: 45px;
+height: 21px;
+right: 654px;
+top: 45.5px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 130%;
+/* identical to box height, or 21px */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #ECF0E8;
+
+
+
+/* Recipes */
+
+position: absolute;
+width: 60px;
+height: 21px;
+right: 541px;
+top: 45.5px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 130%;
+/* identical to box height, or 21px */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #ECF0E8;
+
+
+
+/* Calculator */
+
+position: absolute;
+width: 77px;
+height: 21px;
+right: 400px;
+top: 45.5px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 130%;
+/* identical to box height, or 21px */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #ECF0E8;
+
+
+
+/* About */
+
+position: absolute;
+width: 46px;
+height: 21px;
+right: 285px;
+top: 45.5px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 130%;
+/* identical to box height, or 21px */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #ECF0E8;
+
+
+
+/* Cart button */
+
+position: absolute;
+visibility: hidden;
+width: 126px;
+height: 48px;
+right: 96px;
+top: 32px;
+
+background: #426B1F;
+border-radius: 8px;
+
+
+/* Basket (3) */
+
+position: absolute;
+width: 80px;
+height: 21px;
+left: calc(50% - 80px/2);
+top: calc(50% - 21px/2);
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 130%;
+/* identical to box height, or 21px */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* RecipeFinder */
+
+position: absolute;
+width: 180px;
+height: 32px;
+left: 96px;
+top: 41px;
+
+font-family: 'Newsreader';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 100%;
+/* identical to box height, or 32px */
+letter-spacing: -0.01em;
+
+color: #ECF0E8;
+
+
+
+/* image 4 */
+
+position: absolute;
+width: 800px;
+height: 360px;
+left: 320px;
+top: 320px;
+
+background: url(image.png);
