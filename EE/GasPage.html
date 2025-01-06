@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title> Dogs Page </title>     
+        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+        <!-- Link to external stylesheet -->
+        <link rel="stylesheet" href="style.css" /> 
+        <style>
+             h1 {
+            font-family: 'Montserrat';
+            }
+            h2 {
+                font-family: 'Montserrat';
+            }
+            #dogCarousel img {
+                height: 100%;
+                width: 100%;
+            }
+
+            #dogCarousel { 
+                margin: 0 auto;
+                size: 60%;
+            }
+
+            #dog-info {
+                display: flex;
+                flex-direction: column;
+            }
+
+            #description-box {
+                border: 5px solid black;
+                background-color: antiquewhite;
+                height: 300px;
+                width: 700px;
+                margin: auto;
+            }
+            
+        </style>
+
+        <script src="dogs.js"> </script>
+    </head>
+
+    <body>
+        <!-- Header of Dogs Page-->
+        <header id="dogs-header">
+            <h1> &#128021; INST 377 - Dogs Page &#128021; </h1>
+        </header>
+
+        <!-- Home Page Navigation-->
+        <nav id="home-nav">
+            <ul>
+                <a href="HomePage.html"> <li id="home"> Home</li> </a>
+                <a href="GroceriesPage.html"> <li id="stocks"> Stocks</li> </a>
+                <a href="GasPage.html"> <li id="dogs"> Dogs</li> </a>
+            </ul>
+        </nav>
+
+        <!-- Main Section -->
+        <div id="main-section" style="text-align:center;">
+            <h1 id = "name"> Here are pictures of some dogs.</h1>
+                <!-- Carousel-->
+                <div id="dogCarousel" style="width:800px; height: 400px;" data-simple-slider >
+                    <!-- Slider Works if other functions are commented out from dogs.js-->
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/simple-slider/1.0.0/simpleslider.min.js" defer></script>
+                
+                </div>
+
+                <div id="dog-info" class="dog-info" ></div>
+                    <!-- Buttons-->
+                    <div id="dog-button" class="dog-button"> </div>
+                    <!-- Description-->
+                    <div id="description-box"> </div>
+                <br>
+    </body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "life-tracker",
+  "version": "1.0.0",
+  "description": "App used to track stocks, gas, and groceries",
+  "main": "stocks.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Steven Ton",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.1",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.2"
+  }
+}

@@ -1,0 +1,74 @@
+<html>
+    <head>
+    <title> Stocks Page </title>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="style.css"/>
+    <style>
+        h1 {
+            font-family: 'Montserrat';
+        }
+        h2 {
+            font-family: 'Montserrat';
+        }
+    </style>
+    
+    <script type="text/javascript" src="stocks.js"> </script> 
+    </head>
+
+    <body id="backgroundColor">
+        <!-- Header of Activities Page-->
+        <header id="Activities">
+            <h1 style="text-align: center;"> &#128200; Stocks Page &#128200; </h1>
+        </header>
+
+        <!-- Home Page Navigation-->
+        <nav id="home-nav">
+            <ul>
+                <a href="HomePage.html"> <li id="Home"> Home</li> </a>
+                <a href="GroceriesPage.html"> <li id="Groceries"> Groceries</li> </a>
+                <a href="GasPage.html"> <li id="Gas"> Gas</li> </a>
+            </ul>
+        </nav>
+
+        <!-- Main Section -->
+        <div id="main-section">
+           <div id="stock-chart">   
+                <!-- Stocks-->
+            <div class="stocks" style="text-align: center;">
+                <h2> Let's chart some stocks! </h2>
+                <!-- Ticker Search-->
+                <input type="text" id="tickerSymbol" maxlength="5" required>
+                <!-- Time Period-->
+                <select id="time-period">
+                    <option id="month"> 30 Days</option>
+                    <option id="twoMonth"> 60 Days</option>
+                    <option id="threeMonth"> 90 Days</option>
+                </select>
+                </br>
+                <!-- HTML !-->
+                <button class="stock-search" role="button" onclick="stockSearch()"> Look Up</button>
+            </div>
+            <!-- Line Graph-->
+            <div>
+                <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+                <canvas id="stocksChart" width="800px;" height="400px;"></canvas>
+                
+            </div>
+           </div>           
+           
+           <div id="stock-table"> 
+            <table id="top5Id">
+                <tr id="table-header">
+                    <td id="table-header"> <Strong> Ticker </Strong></td>
+                    <td id="table-header"> <Strong> Comment Count</Strong></td>
+                    <td id="table-header"> <Strong> Sentiment</Strong></td>
+                </tr>
+            </table>
+           </div>
+        </div>
+    </body>
+</html>
+
+<!-- <button class="page-button" role="button"> <a href="GroceriesPage.html"> Groceries </a> </button>
+<button class="page-button" role="button"> <a href="GasPage.html"> Gas </a> </button> -->

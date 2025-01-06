@@ -1,0 +1,64 @@
+<html>
+    <head>
+    <title> Groceries Page </title>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        h1 {
+            font-family: 'Montserrat';
+        }
+        h2 {
+            font-family: 'Montserrat';
+        }
+    </style>
+    
+    <script type="text/javascript" src="groceries.js" defer> </script> 
+    </head>
+
+    <body id="backgroundColor">
+        <!-- Header of Groceries Page-->
+        <header id="Activities">
+            <h1 style="text-align: center;"> &#128722; Groceries &#128722; </h1>
+        </header>
+
+        <!-- Home Page Navigation-->
+        <nav id="home-nav">
+            <ul>
+                <a href="HomePage.html"> <li id="Home"> Home</li> </a>
+                <a href="ToDoPage.html"> <li id="Groceries"> Groceries</li> </a>
+                <a href="GasPage.html"> <li id="Gas"> Gas</li> </a>
+            </ul>
+        </nav>
+
+        <!-- Main Section -->
+        <div id="main-section">
+            <form onsubmit="addGrocery(); return false;">
+                <!-- Item-->
+                <label for="groceryItem">Grocery Item:</label>
+                <input type="text" id="groceryItem" required>
+                <br>
+                <!-- Item Count-->
+                <label for="itemCount">Number of item:</label>
+                <input type="text" id="itemCount" required>
+                <br>
+                <!-- Item Type-->
+                <label for="itemType">Item Type:</label>
+                <input type="text" id="itemType" required>
+                <br>
+                <!-- Aisle-->
+                <label for="aisle"> Aisle:</label>
+                <input type="text" id="aisle" required>
+                <br>
+                <!-- Date Sold-->
+                <label for="dateSold">Date Bought:</label>
+                <input type="date" id="dateSold" required>
+                <br>
+                <br>
+                <input type="submit" name="Submit">
+                <hr>
+            </form>
+                    
+        </div>
+    </body>
+</html>
